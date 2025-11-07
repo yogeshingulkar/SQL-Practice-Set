@@ -1,3 +1,4 @@
+
 SQL> SELECT *
   2  FROM EMP;
 
@@ -17,7 +18,6 @@ SQL> SELECT *
       7900 JAMES      CLERK           7698 03-DEC-81        950                    30               
       7902 FORD       ANALYST         7566 03-DEC-81       3000                    20               
       7934 MILLER     CLERK           7782 23-JAN-82       1300                    10               
-
 14 rows selected.
 
 SQL> SELECT EMP.*
@@ -148,3 +148,4 @@ SQL> SELECT SAL+COMM
 14 rows selected.
 
 SQL> SPOOL OFF
+
