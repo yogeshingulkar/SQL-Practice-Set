@@ -1,6 +1,7 @@
 
 SQL> SELECT *
-  2  FROM EMP;
+
+2  FROM EMP;
 
      EMPNO ENAME      JOB              MGR HIREDATE         SAL       COMM     DEPTNO               
 ---------- ---------- --------- ---------- --------- ---------- ---------- ----------               
@@ -148,4 +149,5 @@ SQL> SELECT SAL+COMM
 14 rows selected.
 
 SQL> SPOOL OFF
+
 
